@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signUp</title>
+    <link rel="shortcut icon" href="th (4).png"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ 
+    <section>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="box">
+          <div class="square" style="---i:0"></div>
+          <div class="square" style="---i:1"></div>
+          <div class="square" style="---i:2"></div>
+          <div class="square" style="---i:3"></div>
+          <div class="square" style="---i:4"></div>
+                
+            <div class="container">
+                <div class="form">
+                    <h2>Smart Login System</h2>
+                      <form action="">
+                         <div class="iputBox">
+                           <input type="text" placeholder="Enter your Name" id="userNameInput" class="form-control">
+                           <div class="errorMessage d-none" id="userNameALert">The Name is Invalid</div>
+                          </div>
+                         <div class="iputBox">
+                          <input type="email"placeholder="Enter your email" id="userEmailInput" required class="form-control" >
+                          <div class="errorMessage d-none" id="userEmailALert">The Email is Invalid</div>
+                          
+                        </div>
+                         <div class="iputBox">
+                          <input type="password" placeholder="Enter your password" id="userPasswordInput" class="form-control">
+                          <div class="errorMessage d-none" id="userPasswordALert">The password is Invalid</div>                   
+                        </div>
+
+                           <p class="alertMessage d-none"id="confirmMsg">Success</p>
+                           <p class="alertMessage d-none"id="accountExistMsg">this account is exist !Try  another one.</p>   
+                           <p class="alertMessage d-none"id="tryAginMsg">signUp failed ! try again</p>
+                        <div class="iputBox">
+                          <a class="neon-button signUp" id="signUpBtn" onclick="signUp()">Sign Up</a> 
+                        </div>
+                          <p class="forget text-white">Don't have account?
+                             <a href="login.html" id="signIndex">sign in</a>
+                          <p class="forget1">
+                            <a href="login.html" class="main d-none" id="signin">sign IN</a>
+                         </p>
+                            </p>
+                          
+                      </form>
+                </div>
+            </div>
+        </div>
+  
+      </section>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/index.js"></script>
+</body>
+</html>

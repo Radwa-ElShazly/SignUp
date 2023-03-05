@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="shortcut icon" href="th (4).png" type="images/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <section>
+      <div class="color"></div>
+      <div class="color"></div>
+      <div class="color"></div>
+      <div class="box">
+        <div class="square" style="---i:0"></div>
+        <div class="square" style="---i:1"></div>
+        <div class="square" style="---i:2"></div>
+        <div class="square" style="---i:3"></div>
+        <div class="square" style="---i:4"></div>
+              
+          <div class="container d-flex align-items-center">
+              <div class="form">
+                  <h2>Smart Login System</h2>
+                    <form action="">
+                       <div class="iputBox">
+                         <input type="text" placeholder="Enter your Email" id="loginEmail" class="form-control" spelling-error="">
+                       </div>
+                       <div class="iputBox">
+                        <input type="password" placeholder="Enter your password" id="loginPassword" class="form-control"spelling-error="" >  
+                      </div>
+
+
+                      <p class="alertMessage d-none" id="fillMsg">fill the inputs frist</p>
+                      <p class="alertMessage d-none" id="wrongMsg">The Email or Password  is incorrect </p>
+                      
+                      <div class="iputBox">
+                        <a class="neon-button login" id="loginBtn"  onclick="login()">login</a> 
+                      </div>
+                      <p class="forget"><a href="signUp.html">Don't have account?sign Up</a></p>
+                    </form>
+              </div>
+          </div>
+      </div> 
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/login.js" defer></script>
+</body>
+</html>
